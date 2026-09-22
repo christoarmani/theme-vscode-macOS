@@ -3,6 +3,26 @@
 macOS-faithful color themes (dark, light, and a translucent dark variant), an
 SF-Symbol-style file icon theme, and a matching product icon theme.
 
+<!-- Theme screenshots go here: images/screenshot-dark.png, images/screenshot-light.png -->
+
+### File icons
+
+55 icons for folders and common file types, drawn on a 16pt grid.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/file-icons-dark.svg">
+  <img alt="Grid of the file icons: folders, a generic file, and icons for languages and formats such as TypeScript, Swift, Python, JSON and Markdown" src="images/file-icons-light.svg" width="100%">
+</picture>
+
+### Product icons
+
+SF-style glyphs replace VS Code's activity bar, toolbar and debug icons.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/product-icons-dark.svg">
+  <img alt="Grid of the product icons, including files, search, source control, extensions, debug controls, terminal and layout toggles" src="images/product-icons-light.svg" width="100%">
+</picture>
+
 ---
 
 ## 1. Install the extension
@@ -102,6 +122,8 @@ With `"native"` the title bar stays system-gray and Vibrancy will not work.
   `sficons.ttf`. Edit an SVG there to redraw a glyph.
 - **File icons** — add or swap SVGs in `fileicons/icons/` and map them in
   `fileicons/icon-theme.json`.
+- **README previews** — after changing icons, run
+  `python images/build-previews.py` to redraw the icon grids.
 
 No Apple fonts or assets are redistributed; all glyphs are drawn from scratch.
 

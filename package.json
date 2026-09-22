@@ -1,0 +1,45 @@
+{
+  "name": "macos-27-skin",
+  "displayName": "macOS 27 Skin",
+  "publisher": "local",
+  "version": "1.1.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "macOS Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/macos-dark.json"
+      },
+      {
+        "label": "macOS Light",
+        "uiTheme": "vs",
+        "path": "./themes/macos-light.json"
+      },
+      {
+        "label": "macOS Dark Vibrancy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/macos-dark-vibrancy.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "macos-sf-icons",
+        "label": "macOS SF-Style Icons",
+        "path": "./fileicons/icon-theme.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "macos-sf-product-icons",
+        "label": "macOS SF-Style Product Icons",
+        "path": "./producticons/product-icon-theme.json"
+      }
+    ]
+  }
+}

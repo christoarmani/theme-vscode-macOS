@@ -1,0 +1,401 @@
+{
+  "fonts": [
+    {
+      "id": "sficons",
+      "src": [
+        {
+          "path": "./sficons.ttf",
+          "format": "truetype"
+        }
+      ],
+      "weight": "normal",
+      "style": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "explorer-view-icon": {
+      "fontCharacter": "\\E001",
+      "fontId": "sficons"
+    },
+    "search-view-icon": {
+      "fontCharacter": "\\E002",
+      "fontId": "sficons"
+    },
+    "source-control-view-icon": {
+      "fontCharacter": "\\E003",
+      "fontId": "sficons"
+    },
+    "run-view-icon": {
+      "fontCharacter": "\\E004",
+      "fontId": "sficons"
+    },
+    "extensions-view-icon": {
+      "fontCharacter": "\\E005",
+      "fontId": "sficons"
+    },
+    "settings-view-bar-icon": {
+      "fontCharacter": "\\E006",
+      "fontId": "sficons"
+    },
+    "accounts-view-bar-icon": {
+      "fontCharacter": "\\E007",
+      "fontId": "sficons"
+    },
+    "terminal-view-icon": {
+      "fontCharacter": "\\E010",
+      "fontId": "sficons"
+    },
+    "files": {
+      "fontCharacter": "\\E001",
+      "fontId": "sficons"
+    },
+    "search": {
+      "fontCharacter": "\\E002",
+      "fontId": "sficons"
+    },
+    "source-control": {
+      "fontCharacter": "\\E003",
+      "fontId": "sficons"
+    },
+    "debug-alt": {
+      "fontCharacter": "\\E004",
+      "fontId": "sficons"
+    },
+    "extensions": {
+      "fontCharacter": "\\E005",
+      "fontId": "sficons"
+    },
+    "gear": {
+      "fontCharacter": "\\E006",
+      "fontId": "sficons"
+    },
+    "settings-gear": {
+      "fontCharacter": "\\E006",
+      "fontId": "sficons"
+    },
+    "account": {
+      "fontCharacter": "\\E007",
+      "fontId": "sficons"
+    },
+    "close": {
+      "fontCharacter": "\\E008",
+      "fontId": "sficons"
+    },
+    "chevron-down": {
+      "fontCharacter": "\\E009",
+      "fontId": "sficons"
+    },
+    "chevron-up": {
+      "fontCharacter": "\\E00A",
+      "fontId": "sficons"
+    },
+    "chevron-right": {
+      "fontCharacter": "\\E00B",
+      "fontId": "sficons"
+    },
+    "chevron-left": {
+      "fontCharacter": "\\E00C",
+      "fontId": "sficons"
+    },
+    "add": {
+      "fontCharacter": "\\E00D",
+      "fontId": "sficons"
+    },
+    "ellipsis": {
+      "fontCharacter": "\\E00E",
+      "fontId": "sficons"
+    },
+    "menu": {
+      "fontCharacter": "\\E00F",
+      "fontId": "sficons"
+    },
+    "terminal": {
+      "fontCharacter": "\\E010",
+      "fontId": "sficons"
+    },
+    "trash": {
+      "fontCharacter": "\\E011",
+      "fontId": "sficons"
+    },
+    "refresh": {
+      "fontCharacter": "\\E012",
+      "fontId": "sficons"
+    },
+    "split-horizontal": {
+      "fontCharacter": "\\E013",
+      "fontId": "sficons"
+    },
+    "error": {
+      "fontCharacter": "\\E014",
+      "fontId": "sficons"
+    },
+    "warning": {
+      "fontCharacter": "\\E015",
+      "fontId": "sficons"
+    },
+    "info": {
+      "fontCharacter": "\\E016",
+      "fontId": "sficons"
+    },
+    "bell": {
+      "fontCharacter": "\\E017",
+      "fontId": "sficons"
+    },
+    "bell-dot": {
+      "fontCharacter": "\\E017",
+      "fontId": "sficons"
+    },
+    "arrow-left": {
+      "fontCharacter": "\\E018",
+      "fontId": "sficons"
+    },
+    "arrow-right": {
+      "fontCharacter": "\\E019",
+      "fontId": "sficons"
+    },
+    "arrow-small-left": {
+      "fontCharacter": "\\E018",
+      "fontId": "sficons"
+    },
+    "arrow-small-right": {
+      "fontCharacter": "\\E019",
+      "fontId": "sficons"
+    },
+    "new-file": {
+      "fontCharacter": "\\E01A",
+      "fontId": "sficons"
+    },
+    "new-folder": {
+      "fontCharacter": "\\E01B",
+      "fontId": "sficons"
+    },
+    "folder": {
+      "fontCharacter": "\\E01C",
+      "fontId": "sficons"
+    },
+    "folder-opened": {
+      "fontCharacter": "\\E01D",
+      "fontId": "sficons"
+    },
+    "collapse-all": {
+      "fontCharacter": "\\E01E",
+      "fontId": "sficons"
+    },
+    "filter": {
+      "fontCharacter": "\\E01F",
+      "fontId": "sficons"
+    },
+    "filter-filled": {
+      "fontCharacter": "\\E01F",
+      "fontId": "sficons"
+    },
+    "kebab-vertical": {
+      "fontCharacter": "\\E020",
+      "fontId": "sficons"
+    },
+    "check": {
+      "fontCharacter": "\\E021",
+      "fontId": "sficons"
+    },
+    "circle-filled": {
+      "fontCharacter": "\\E022",
+      "fontId": "sficons"
+    },
+    "record": {
+      "fontCharacter": "\\E025",
+      "fontId": "sficons"
+    },
+    "debug-stop": {
+      "fontCharacter": "\\E023",
+      "fontId": "sficons"
+    },
+    "debug-pause": {
+      "fontCharacter": "\\E024",
+      "fontId": "sficons"
+    },
+    "debug-restart": {
+      "fontCharacter": "\\E012",
+      "fontId": "sficons"
+    },
+    "debug-start": {
+      "fontCharacter": "\\E004",
+      "fontId": "sficons"
+    },
+    "sync": {
+      "fontCharacter": "\\E012",
+      "fontId": "sficons"
+    },
+    "sync-ignored": {
+      "fontCharacter": "\\E012",
+      "fontId": "sficons"
+    },
+    "layout-sidebar-left": {
+      "fontCharacter": "\\E026",
+      "fontId": "sficons"
+    },
+    "layout-sidebar-left-off": {
+      "fontCharacter": "\\E026",
+      "fontId": "sficons"
+    },
+    "layout-panel": {
+      "fontCharacter": "\\E027",
+      "fontId": "sficons"
+    },
+    "layout-panel-off": {
+      "fontCharacter": "\\E027",
+      "fontId": "sficons"
+    },
+    "layout-sidebar-right": {
+      "fontCharacter": "\\E028",
+      "fontId": "sficons"
+    },
+    "layout-sidebar-right-off": {
+      "fontCharacter": "\\E028",
+      "fontId": "sficons"
+    },
+    "chrome-close": {
+      "fontCharacter": "\\E008",
+      "fontId": "sficons"
+    },
+    "panel-close": {
+      "fontCharacter": "\\E008",
+      "fontId": "sficons"
+    },
+    "chevron-down-small": {
+      "fontCharacter": "\\E009",
+      "fontId": "sficons"
+    },
+    "lightbulb": {
+      "fontCharacter": "\\E029",
+      "fontId": "sficons"
+    },
+    "lightbulb-autofix": {
+      "fontCharacter": "\\E029",
+      "fontId": "sficons"
+    },
+    "lightbulb-sparkle": {
+      "fontCharacter": "\\E029",
+      "fontId": "sficons"
+    },
+    "pin": {
+      "fontCharacter": "\\E02A",
+      "fontId": "sficons"
+    },
+    "pinned": {
+      "fontCharacter": "\\E02A",
+      "fontId": "sficons"
+    },
+    "pinned-dirty": {
+      "fontCharacter": "\\E02A",
+      "fontId": "sficons"
+    },
+    "eye": {
+      "fontCharacter": "\\E02B",
+      "fontId": "sficons"
+    },
+    "eye-closed": {
+      "fontCharacter": "\\E02B",
+      "fontId": "sficons"
+    },
+    "eye-watch": {
+      "fontCharacter": "\\E02B",
+      "fontId": "sficons"
+    },
+    "comment": {
+      "fontCharacter": "\\E02C",
+      "fontId": "sficons"
+    },
+    "comment-discussion": {
+      "fontCharacter": "\\E02C",
+      "fontId": "sficons"
+    },
+    "comments-view-icon": {
+      "fontCharacter": "\\E02C",
+      "fontId": "sficons"
+    },
+    "comment-unresolved": {
+      "fontCharacter": "\\E02C",
+      "fontId": "sficons"
+    },
+    "link": {
+      "fontCharacter": "\\E02D",
+      "fontId": "sficons"
+    },
+    "link-external": {
+      "fontCharacter": "\\E02D",
+      "fontId": "sficons"
+    },
+    "save": {
+      "fontCharacter": "\\E02E",
+      "fontId": "sficons"
+    },
+    "save-all": {
+      "fontCharacter": "\\E02E",
+      "fontId": "sficons"
+    },
+    "save-as": {
+      "fontCharacter": "\\E02E",
+      "fontId": "sficons"
+    },
+    "word-wrap": {
+      "fontCharacter": "\\E02F",
+      "fontId": "sficons"
+    },
+    "beaker": {
+      "fontCharacter": "\\E030",
+      "fontId": "sficons"
+    },
+    "test-view-icon": {
+      "fontCharacter": "\\E030",
+      "fontId": "sficons"
+    },
+    "history": {
+      "fontCharacter": "\\E031",
+      "fontId": "sficons"
+    },
+    "clock": {
+      "fontCharacter": "\\E031",
+      "fontId": "sficons"
+    },
+    "timeline-view-icon": {
+      "fontCharacter": "\\E031",
+      "fontId": "sficons"
+    },
+    "play": {
+      "fontCharacter": "\\E032",
+      "fontId": "sficons"
+    },
+    "play-circle": {
+      "fontCharacter": "\\E032",
+      "fontId": "sficons"
+    },
+    "run-all": {
+      "fontCharacter": "\\E032",
+      "fontId": "sficons"
+    },
+    "debug-rerun": {
+      "fontCharacter": "\\E032",
+      "fontId": "sficons"
+    },
+    "debug-step-over": {
+      "fontCharacter": "\\E033",
+      "fontId": "sficons"
+    },
+    "debug-step-into": {
+      "fontCharacter": "\\E034",
+      "fontId": "sficons"
+    },
+    "debug-step-out": {
+      "fontCharacter": "\\E035",
+      "fontId": "sficons"
+    },
+    "edit": {
+      "fontCharacter": "\\E036",
+      "fontId": "sficons"
+    },
+    "copy": {
+      "fontCharacter": "\\E001",
+      "fontId": "sficons"
+    }
+  }
+}

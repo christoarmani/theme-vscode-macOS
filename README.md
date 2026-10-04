@@ -1,6 +1,6 @@
 # macOS 27 Skin for VS Code
 
-macOS-faithful color themes (dark and light), an
+macOS-faithful color themes (dark and light, made for the Vibrancy Continued\nextension), an
 SF-Symbol-style file icon theme, and a matching product icon theme.
 
 ---
@@ -108,6 +108,38 @@ Or set all three at once in `settings.json`:
 
 ---
 
+## Required plugin — Vibrancy Continued
+
+**macOS Dark** and **macOS Light** are built to run with the Vibrancy Continued
+extension. VS Code windows are opaque by default, so a color theme cannot show
+the desktop through the window chrome on its own.
+
+1. Install **Vibrancy Continued** — `illixion.vscode-vibrancy-continued`
+   (Extensions view -> search "Vibrancy Continued", or
+   `code --install-extension illixion.vscode-vibrancy-continued`).
+2. Add to `settings.json`:
+
+```json
+"window.titleBarStyle": "custom",
+"vscode_vibrancy.type": "sidebar",
+"vscode_vibrancy.opacity": -1
+```
+
+3. Run **Reload Vibrancy** from the Command Palette. VS Code will warn that the
+   installation is corrupt — this is expected; Vibrancy patches the app shell.
+   Click the gear on the notification and choose "Don't Show Again".
+4. Re-run **Reload Vibrancy** after every VS Code update, or the effect is lost.
+
+Only the chrome is translucent: title bar, activity bar, sidebar, tab strip,
+and status bar. The editor, gutter, minimap, breadcrumbs, panel, and terminal
+stay solid so code never sits on top of the desktop. Without the extension the
+themes still work, just with an opaque window.
+
+Vibrancy is macOS only. On Windows/Linux, Vibrancy Continued offers acrylic
+effects but results vary.
+
+---
+
 ## Recommended settings
 
 Optional, but the skin was designed against these:
@@ -124,7 +156,7 @@ Optional, but the skin was designed against these:
 ```
 
 `window.titleBarStyle: "custom"` is what lets the theme color the title bar.
-With `"native"` the title bar stays system-gray.
+With `"native"` the title bar stays system-gray and Vibrancy will not work.
 
 ### Auto light/dark switching
 
@@ -155,5 +187,7 @@ No Apple fonts or assets are redistributed; all glyphs are drawn from scratch.
   settings from the color theme. Both must be selected.
 - **Title bar is the wrong color** — set `"window.titleBarStyle": "custom"` and
   restart (not just reload).
+- **Vibrancy stopped working** — re-run **Reload Vibrancy** after a VS Code
+  update.
 - **Theme not listed** — the folder must sit directly in `.vscode/extensions/`
   with `package.json` at its root, then VS Code fully restarted.

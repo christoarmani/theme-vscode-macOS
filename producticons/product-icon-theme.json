@@ -396,6 +396,50 @@
     "copy": {
       "fontCharacter": "\\E001",
       "fontId": "sficons"
+    },
+    "tree-item-expanded": {
+      "fontCharacter": "\\E009",
+      "fontId": "sficons"
+    },
+    "tree-item-collapsed": {
+      "fontCharacter": "\\E00B",
+      "fontId": "sficons"
+    },
+    "view-pane-container-expanded": {
+      "fontCharacter": "\\E009",
+      "fontId": "sficons"
+    },
+    "view-pane-container-collapsed": {
+      "fontCharacter": "\\E00B",
+      "fontId": "sficons"
+    },
+    "breadcrumb-separator": {
+      "fontCharacter": "\\E00B",
+      "fontId": "sficons"
+    },
+    "folding-expanded": {
+      "fontCharacter": "\\E009",
+      "fontId": "sficons"
+    },
+    "folding-collapsed": {
+      "fontCharacter": "\\E00B",
+      "fontId": "sficons"
+    },
+    "find-collapsed": {
+      "fontCharacter": "\\E00B",
+      "fontId": "sficons"
+    },
+    "find-expanded": {
+      "fontCharacter": "\\E009",
+      "fontId": "sficons"
+    },
+    "chevron-right-small": {
+      "fontCharacter": "\\E00B",
+      "fontId": "sficons"
+    },
+    "chevron-up-small": {
+      "fontCharacter": "\\E00A",
+      "fontId": "sficons"
     }
   }
 }

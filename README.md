@@ -1,7 +1,7 @@
 # macOS 27 Skin for VS Code
 
-macOS-faithful color themes (dark and light, made for the Vibrancy Continued\nextension), an
-SF-Symbol-style file icon theme, and a matching product icon theme.
+macOS-faithful color themes (dark and light, made for the Vibrancy Continued
+extension), an SF-Symbol-style file icon theme, and a matching product icon theme.
 
 ---
 

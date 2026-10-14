@@ -3,6 +3,12 @@
 macOS-faithful color themes (dark and light, made for the Vibrancy Continued
 extension), an SF-Symbol-style file icon theme, and a matching product icon theme.
 
+![macOS Dark in VS Code, with the SF-Style file and product icon themes](images/screenshot-dark.png)
+
+![macOS Light in VS Code, with the SF-Style file and product icon themes](images/screenshot-light.png)
+
+<sub>macOS Dark and macOS Light with macOS SF-Style Icons, macOS SF-Style Product Icons and Vibrancy Continued.</sub>
+
 ---
 
 ### File icons

@@ -33,7 +33,9 @@ macos-27-skin/
 ├── README.md
 ├── themes/
 │   ├── macos-dark.json             # color theme: macOS Dark
-│   └── macos-light.json            # color theme: macOS Light
+│   ├── macos-light.json            # color theme: macOS Light
+│   ├── apple-developer-dark.json   # color theme: Apple Developer Dark
+│   └── apple-developer-light.json  # color theme: Apple Developer Light
 ├── fileicons/
 │   ├── icon-theme.json             # file icon theme: extension/filename -> SVG map
 │   └── icons/                      # 56 SVGs (16pt grid)
@@ -94,7 +96,7 @@ Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`) and run:
 
 | Command | Pick |
 |---|---|
-| Preferences: Color Theme | **macOS Dark** or **macOS Light** |
+| Preferences: Color Theme | **macOS Dark**, **macOS Light**, **Apple Developer Dark** or **Apple Developer Light** |
 | Preferences: File Icon Theme | **macOS SF-Style Icons** |
 | Preferences: Product Icon Theme | **macOS SF-Style Product Icons** |
 
